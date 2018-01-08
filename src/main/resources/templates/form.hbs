@@ -1,0 +1,16 @@
+<!--{{#partial "title"}}-->
+    <!--Change Machine!-->
+<!--{{/partial}}-->
+
+{{#partial "form"}}
+<h1>How much change do you need?</h1>
+<form action="/machine">
+    <div class="form-group">
+        <label for="amount">How much change do you need?</label>
+        <input id="amount" name="amount" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">Submit</button>
+</form>
+{{/partial}}
+
+{{> layout.hbs}}
